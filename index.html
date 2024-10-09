@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-final</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container w-[1520px] overflow-hidden">
+    <div class="header relative w-full h-[695px] bg-[#6A00FF] flex flex-col items-center overflow-hidden">
+      <div class="absolute w-[850px] h-[725px] -top-2/3 rounded-full bg-[#A64AFFBF] filter blur-3xl"> </div>
+
+      <div class="absolute w-48 rotate-90 ml-[1000px] mt-24 border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-60 rotate-90 ml-[1050px] mt-24 border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-72 rotate-90 ml-[1100px] mt-24 border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-60 rotate-90 ml-[1150px] mt-24 border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-48 rotate-90 ml-[1200px] mt-24 border border-dashed border-[#FFFFFF80]"></div>
+
+      <div class="navbar absolute bg-[#FFFFFF] w-4/5 h-16 mt-5 rounded-full flex flex-row items-center justify-between dark:bg-[#292929] dark:text-[#E0E0E0]">
+        <a href="#" class="flex flex-row items-center gap-1 ml-10 pt-1"> 
+          <img src="assets/images/workroot_1.png" alt="logo" class="w-8 h-8">
+          <Span class="font-['Inter'] font-semibold text-lg">Workroot</Span>
+        </a>
+        <div>
+          <ul class="flex flex-row items-center gap-10 font-['Inter'] text-base font-medium text-[#292929] dark:text-[#FFFFFF]">
+            <li>
+              <a href="#" class="block">Home</a>
+            </li>
+            <li class="group">
+              <button class="flex flex-row items-center gap-1">
+                Services
+                <img src="assets/vector/downarrow.svg" class="w-[10px] h-[10px] dark:fill-white"> 
+              </button>
+              <div class="absolute z-10 hidden group-hover:block rounded-xl bg-[#FFFFFF] w-56 mt-7 dark:bg-[#292929] ">
+                <ul class="px-5 py-4">
+                  <li>
+                    <a href="#" class="font-['Inter'] text-base font-medium text-[#292929] text-left flex flex-row items-center gap-3 py-1 dark:text-[#FFFFFF]" >
+                      <img src="assets/vector/sms.svg" class="w-[22px] h-[19px]">
+                      SMS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="font-['Inter'] text-base font-medium text-[#292929] text-left flex flex-row items-center gap-3 py-1 ml-1 dark:text-[#FFFFFF]" >
+                      <img src="assets/vector/voice.svg" class="w-[15px] h-[19px]">  
+                      Voice
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="font-['Inter'] text-base font-medium text-[#292929] text-left flex flex-row items-center gap-3 py-1 dark:text-[#FFFFFF]">
+                      <img src="assets/vector/email.svg" class="w-[21px] h-[15px]">
+                      Email</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="font-['Inter'] text-base font-medium text-[#292929] text-left flex flex-row items-center gap-3 py-1 dark:text-[#FFFFFF]">
+                      <img src="assets/vector/whatsapp.svg" class="w-[19px] h-[19px]">
+                      Whatsapp
+                      <span class="flex justify-items-end">
+                        <img src="assets/vector/comingsoon.svg" class="w-[66px] h-[20px]">        
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="font-['Inter'] text-base font-medium text-[#292929] text-left flex flex-row items-center gap-3 py-1 dark:text-[#FFFFFF]">
+                      <img src="assets/vector/facebook.svg" class="w-[19px] h-[19px]">
+                      Facebook
+                      <span class="ml-1 flex justify-items-end">
+                        <img src="assets/vector/comingsoon.svg" class="w-[66px] h-[20px]">  
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div >
+          <button class="flex flex-row items-center bg-[#A64AFF] rounded-full px-4 py-2 mr-4 gap-1">
+            <span class="font-['Inter'] text-base font-medium text-white">Login</span> 
+            <span>
+              <img src="assets/vector/leftarrow.svg" class="size-6">
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class=" relative z-0 mt-32 font-['Inter'] text-4xl font-semibold leading-normal text-white text-center ">
+        Reach Thousands Instantly: <br>
+        Seamless Bulk SMS
+      </div>
+
+      <div class="relative z-0 mt-6 font-['Inter'] text-base font-normal leading-normal text-[#E0E0E0] text-center">
+        Step into the future with our cutting-edge technology <br> solutions tailored for your business needs.
+      </div>
+
+      <div class="flex flex-row items-center mt-9 gap-[480px]">  
+        <button>    
+          <img src="assets/vector/rightmove.svg" class="size-6">         
+        </button>
+
+        <button class="bg-[#C7F9FF] flex flex-row items-center rounded-full px-5 py-3 gap-2">
+          <span class="font-['Inter'] text-base font-normal">Get a quote</span>
+          <span>
+           <img src="assets/vector/leftarrowblack.svg" class="size-6">           
+          </span>
+        </button>
+
+        <button>
+          <img src="assets/vector/leftmove.svg" class="size-6">
+        </button>
+      </div>
+
+      <div class="absolute w-48 rotate-90 -ml-[1300px] mt-[600px] border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-60 rotate-90 -ml-[1250px] mt-[575px] border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-72 rotate-90 -ml-[1200px] mt-[550px] border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-60 rotate-90 -ml-[1150px] mt-[575px] border border-dashed border-[#FFFFFF80]"></div>
+      <div class="absolute w-48 rotate-90 -ml-[1100px] mt-[600px] border border-dashed border-[#FFFFFF80]"></div>
+
+      <div class="w-1/2  object-cover">
+        <img src="assets/images/hero_img_22.png" alt="">
+      </div>
+
+      
+    </div>
+
+    <div class="content pb-20 bg-[#FFFFFF] dark:bg-[#292929] overflow-hidden">
+      <div class="ml-60 pt-10 font-['Inter'] font-semibold text-5xl text-[#1A1A1A40] dark:text-[#FFFFFF40]">
+        What we provides
+      </div>
+
+      <div class=" flex flex-row items-center">
+        <div class="relative z-0 w-3/4 h-96 mt-5 -ml-10 rounded-3xl border-4 border-solid border-cyan-400">
+          <div class="w-80 ml-60 mt-12 font-['Inter'] font-medium text-2xl text-[#1A1A1A] dark:text-[#FFFFFF]">
+            Precision Messaging, Amplified Impact
+          </div>
+          <div class="w-2/5 ml-60 mt-8 font-['Inter'] font-medium text-base text-[#404040] dark:text-[#E0E0E0]">
+            Elevate your communication strategy with our cutting-edge Bulk SMS service. At WorkRoot, we redefine messaging precision, offering a robust platform designed to deliver your messages instantly and reliably
+          </div>  
+          <button class="ml-60 mt-14 bg-[#00829B] flex flex-row items-center rounded-full px-5 py-3 gap-2">
+            <span class="font-['Inter'] text-base font-normal text-[#FFFFFF]">Get a quote</span>
+            <span>
+              <img src="assets/vector/leftarrow.svg" class="size-6">
+            </span>
+          </button>
+        
+          <div class="absolute z-10 w-72 ml-[980px] -mt-64 bg-slate-50  rounded-xl shadow-lg shadow-slate-400 dark:bg-[#404040] dark:shadow-[#00000026]">
+            <div class="px-6 py-6 mt-4">
+              <div>
+                <img src="assets/vector/instantdelivery.svg" class="w-[65px] h-[65px]">
+              </div>
+              <div class="mt-3 font-['Inter'] font-medium text-base text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Instant Delivery
+              </div>
+              <div class="mt-2 font-['Inter'] font-light text-xs text-[#404040] dark:text-[#E0E0E0]">
+                Reach your audience in real-time, ensuring your messages are always timely and impactful
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class=" flex flex-row items-center">
+        <div class="relative z-0 w-4/5 h-96 mt-20 ml-96 -mr-10 rounded-3xl border-4 border-solid border-cyan-400">
+                 
+          <div class="absolute z-10 w-72 -ml-36 mt-20 bg-slate-50 rounded-xl shadow-lg shadow-slate-400 dark:bg-[#404040] dark:shadow-[#00000026]">
+            <div class="px-6 py-6 mt-4">
+              <div>
+                <img src="assets/vector/automatedcalling.svg" class="w-[65px] h-[65px]">  
+              </div>
+              <div class="mt-3 font-['Inter'] font-medium text-base text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Automated Calling
+              </div>
+              <div class="mt-2 font-['Inter'] font-light text-xs text-[#404040] dark:text-[#E0E0E0]">
+                Effortlessly automate calls for announcements, reminders, and more, saving you time and resources.
+              </div>
+            </div>
+          </div>
+
+          <div class="w-80 ml-[400px] mt-12 font-['Inter'] font-medium text-2xl text-[#1A1A1A] dark:text-[#FFFFFF]">
+            Dynamic Outreach, Seamless Connectivity
+          </div>
+          <div class="w-2/5  ml-[400px]  mt-8 font-['Inter'] font-medium text-base text-[#404040] dark:text-[#E0E0E0]">
+            Introducing Workroot's Bulk Calling Service – a game-changer in communication outreach. Break through the noise and connect with your audience effortlessly.
+          </div>  
+          <button class="ml-[400px] mt-14 bg-[#00829B] flex flex-row items-center rounded-full px-5 py-3 gap-2">
+            <span class="font-['Inter'] text-base font-normal text-[#FFFFFF]">Get a quote</span>
+            <span>
+              <img src="assets/vector/leftarrow.svg" class="size-6">
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class=" flex flex-row items-center">
+        <div class="relative z-0 w-3/4 h-96 mt-20 -ml-10 rounded-3xl border-4 border-solid border-cyan-400">
+          <div class="w-72 ml-60 mt-12 font-['Inter'] font-medium text-2xl text-[#1A1A1A] dark:text-[#FFFFFF]">
+            Effortless Email Excellence, Delivered
+          </div>
+          <div class="w-2/5 ml-60 mt-8 font-['Inter'] font-medium text-base text-[#404040] dark:text-[#E0E0E0]">
+            Welcome to workroot's Bulk Email Service, where communication meets efficiency. Our platform is crafted to redefine the way you connect with your audience through email campaigns.
+          </div>           
+          <button class="ml-60 mt-14 bg-[#00829B] flex flex-row items-center rounded-full px-5 py-3 gap-2">
+            <span class="font-['Inter'] text-base font-normal text-[#FFFFFF]">Get a quote</span>
+            <span>
+              <img src="assets/vector/leftarrow.svg" class="size-6">          
+            </span>
+          </button>
+        
+          <div class="absolute z-10 w-72 ml-[980px] -mt-64 bg-slate-50  rounded-xl shadow-lg shadow-slate-400 dark:bg-[#404040] dark:shadow-[#00000026]">
+            <div class="px-6 py-6 mt-4">
+              <div>
+                <img src="assets/vector/dynamiccampaigns.svg" class="w-[65px] h-[65px]">  
+              </div>
+              <div class="mt-3 font-['Inter'] font-medium text-base text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Dynamic Campaigns
+              </div>
+              <div class="mt-2 font-['Inter'] font-light text-xs text-[#404040] dark:text-[#E0E0E0]">
+                Create and send visually appealing, dynamic email campaigns that captivate your audience and drive engagement.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="features pt-10 pb-14 bg-[#E0E0E080] dark:bg-[#292929]">
+      <div class="ml-32 py-10 font-['Inter'] font-semibold text-5xl text-[#1A1A1A40] dark:text-[#FFFFFF40]">
+        Features
+      </div>
+      <div class="flex flex-row" >
+
+        <div class="w-2/5 flex flex-col justify-start ">
+          <div class="w-80 ml-32 mt-4 font-['Inter'] font-medium text-2xl text-[#1A1A1A] dark:text-[#FFFFFF]">
+            Precision Messaging, Amplified Impact
+          </div>
+          <div class="w-3/4 ml-32 mt-8 font-['Inter'] font-medium text-base text-[#404040] dark:text-[#E0E0E0]">
+            Elevate your communication strategy with our cutting-edge Bulk SMS service. At WorkRoot, we redefine messaging precision, offering a robust platform designed to deliver your messages instantly and reliably
+          </div> 
+          <div> 
+            <button class="ml-32 mt-10 bg-[#6A00FF] flex flex-row items-center rounded-full px-5 py-3 gap-2">
+              <span class="font-['Inter'] text-base font-normal text-[#FFFFFF]">Get a quote</span>
+              <span>
+                <img src="assets/vector/leftarrow.svg" class="size-6">          
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div >
+          <div class="w-72  ml-96 bg-slate-50 rounded-xl dark:bg-[#1A1A1A]">
+            <div class="px-7 py-9">
+              <div>
+                <img src="assets/vector/instantdelivery.svg" class="w-[65px] h-[65px]">
+              </div>
+              <div class="mt-3 font-['Inter'] font-medium text-base text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Instant Delivery
+              </div>
+              <div class="mt-2 font-['Inter'] font-light text-xs text-[#404040] dark:text-[#E0E0E0]">
+                Reach your audience in real-time, ensuring your messages are always timely and impactful
+              </div>
+            </div>
+          </div>
+        
+          <div class="w-72 mt-5 ml-96 bg-slate-50 rounded-xl dark:bg-[#1A1A1A]">
+            <div class="px-7 py-9">
+              <div>
+                <img src="assets/vector/automatedcalling.svg" class="w-[65px] h-[65px]">   
+              </div>
+              <div class="mt-3 font-['Inter'] font-medium text-base text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Automated Calling
+              </div>
+              <div class="mt-2 font-['Inter'] font-light text-xs text-[#404040] dark:text-[##E0E0E0]">
+                Effortlessly automate calls for announcements, reminders, and more, saving you time and resources.
+              </div>
+            </div>
+          </div>  
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="advertise px-32 py-20 bg-white dark:bg-[#292929]">
+      <div class="flex flex-row gap-5">
+        <div class="w-[500px] h-[600px] bg-[#00829B] rounded-[40px] overflow-hidden">
+          <div class="ml-12 mt-16">
+            <img src="assets/vector/speaker.svg" class="w-[50px] h-[37px]">              
+          </div>
+          <div class="mx-12 mt-10 font-['Inter'] font-[700] text-4xl leading-10 text-white ">
+            Launch targeted marketing campaigns with bulk SMS, calls, and emails
+          </div>
+          <div class="ml-12 mt-6">
+            <img src="assets/vector/advertise.svg" class="w-[409px] h-[276px]">              
+          </div>
+        </div>
+        <div class="w-[300px] h-[600px] bg-[#E0E0E0] rounded-[40px] overflow-hidden">
+          <div class="ml-14  -mt-6 -mr-6  ">
+            <img src="assets/images/reminder_3_d_1.png">
+          </div>  
+          <div class="mx-10 mt-32 w-40 font-['Inter'] font-[600] text-3xl leading-10 text-[#292929] ">
+            Event Reminders and Updates
+          </div>         
+        </div>
+        <div class="w-[400px] h-[600px] bg-[#FFB1FF80] rounded-[40px] overflow-hidden">
+          <div class="mx-14 mt-10 font-['Inter'] font-[700] text-4xl leading-10 text-[#292929] ">
+            Instantly broadcast critical information during emergencies
+          </div>
+          <div class="ml-24 mt-6 scale-75" >
+            <img src="assets/images/emergency_3_d_1.png">
+          </div>
+        </div>
+      </div>
+      
+      <div class="absolute hidden dark:block w-[275px] h-[725px] ml-[1100px] -mt-[400px] rounded-tl-full rounded-bl-full bg-[#00E5FF26] filter blur-3xl"> 
+      </div>
+    
+    </div>
+
+    <div class="faq px-10 py-5 bg-white dark:bg-[#292929]">
+      <div class="font-['Inter'] font-[600] text-center text-7xl text-[#1A1A1A40] dark:text-[#FFFFFF40]">
+        Frequently Asked Questions
+      </div>
+      <div class=" mt-10 mx-10 rounded-2xl  bg-[#00829B]">
+        <div class=" pt-5 mr-16 flex flex-row justify-between items-center">
+          <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#FFFFFF] flex flex-row items-center">
+            <img src="assets/vector/numberone.svg" class="w-[27px] h-[27px]">                                  
+            What is Workroot and what services do you offer?
+          </span>
+          <span>
+            <img src="assets/vector/minus.svg" class="w-[25px] h-[25px]">              
+          </span>
+        </div>
+        <div class=" ml-28 mr-24 py-5 font-['Inter'] font-[500] text-base leading-6  text-[#E0E0E0]">
+          Workroot is a leading provider of bulk communication services. We offer solutions for bulk SMS, calls, and emails, empowering businesses to stream line their communication strategies and reach their audience more effectively.
+        </div>
+      </div>
+
+      <div class="mt-10 mx-10 mr-24 flex flex-row justify-between items-center">
+        <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] flex flex-row items-center">
+          <img src="assets/vector/numbertwo.svg" class="w-[29px] h-[27px]">
+            What is Workroot and what services do you offer?
+        </span>
+        <span>
+          <img src="assets/vector/plus.svg" class="w-[25px] h-[25px]">            
+        </span>
+      </div>
+
+      <div class="mt-10 mx-10 mr-24 flex flex-row justify-between items-center">
+          <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] flex flex-row items-center">
+            <img src="assets/vector/numberthree.svg" class="w-[30px] h-[27px]">              
+            How can I get started with Workroot?
+          </span>
+          <span>
+            <img src="assets/vector/plus.svg" class="w-[25px] h-[25px]">           
+          </span>
+      </div>
+      
+      <div class="mt-10 mx-10 mr-24 flex flex-row justify-between items-center">
+        <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] flex flex-row items-center">
+          <img src="assets/vector/numberfour.svg" class="w-[30px] h-[27px]">           
+          Is there a trial period available?
+        </span>
+        <span>
+          <img src="assets/vector/plus.svg" class="w-[25px] h-[25px]">            
+        </span>
+      </div>
+      
+      <div class="mt-10 mx-10 mr-24 flex flex-row justify-between items-center">
+        <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] flex flex-row items-center">
+          <img src="assets/vector/numberfive.svg" class="w-[29px] h-[27px]">            
+          What is Workroot and what services do you offer?
+        </span>
+        <span>
+          <img src="assets/vector/plus.svg" class="w-[25px] h-[25px]">            
+        </span>
+      </div>
+
+      <div class="mt-10 mx-10 mr-24 flex flex-row justify-between items-center">
+        <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] flex flex-row items-center">
+          <img src="assets/vector/numbersix.svg" class="w-[30px] h-[27px]">            
+          What is Workroot and what services do you offer?
+        </span>
+        <span>
+          <img src="assets/vector/plus.svg" class="w-[25px] h-[25px]">            
+        </span>
+      </div>  
+
+      <div class="mt-10 mx-10 mr-24 flex flex-row justify-between items-center">
+        <span class="ml-16 gap-5 font-['Inter'] font-[600] text-center text-lg leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] flex flex-row items-center">
+          <img src="assets/vector/numberseven.svg" class="w-[29px] h-[27px]">            
+          What is Workroot and what services do you offer?
+        </span>
+        <span>
+          <img src="assets/vector/plus.svg" class="w-[25px] h-[25px]">            
+        </span>
+      </div>  
+
+    </div>
+
+    <div class="clientsay px-10 py-10 bg-white dark:bg-[#292929]">
+      <div class="absolute hidden dark:block w-[700px] h-[700px] -ml-96 -mt-40 rounded-full bg-[#A64AFF26] filter blur-3xl"> </div>
+
+      <div class="mt-20 font-['Inter'] font-[600] text-center text-7xl text-[#1A1A1A40] dark:text-[#FFFFFF40]">
+        Clients say
+      </div>
+      <div class="mt-10 gap-10 flex flex-col  items-center ">
+        <div class="">
+          <img src="assets/images/ellipse_5.png" alt="" class="w-16 h-16 rounded-full">
+        </div>
+        <div class="font-['Inter'] font-[400] text-center text-base leading-5 text-[#1A1A1A] dark:text-[#FFFFFF] " >
+          MARY JOHNSON / 
+          <span class="text-[#40404080] dark:text-[#E0E0E080]">
+            FROM PROSYNC
+          </span>
+        </div>
+        <div class="w-1/3 font-['Inter'] font-[400] text-center text-sm leading-4 text-[#404040] dark:text-[#E0E0E080]">
+          Their innovative technology has revolutionized the way we operate. The team's dedication to understanding our unique needs was truly impressive. We're thrilled with the results.
+        </div>
+        <div>
+          <div class="relative z-0 w-32 border-[1px] border-solid border-[#4A55A240] dark:border-[#E0E0E080] flex flex-row items-center">
+            <span class="absolute z-10 w-14 border-[1px] border-solid border-[#4A55A2] dark:border-[#A64AFF]"></span>
+          </div>
+        </div>
+
+        <div class="flex flex-row gap-4">
+          <img src="assets/vector/moveright.svg" class="w-[36px] h-[36px]">
+          <img src="assets/vector/moveleft.svg" class="w-[36px] h-[36px]">
+        </div>
+      </div>
+    </div>
+
+    <div class="connectus py-20 pb-32 bg-white flex flex-row items-start dark:bg-[#292929]">
+      <div class="w-2/5 ml-24 gap-5 flex flex-col">
+        <div class="font-['Inter'] font-[600] text-2xl leading-7 text-[#404040] dark:text-[#FFFFFF]">
+          Connect with us
+        </div>
+        <div class="font-['Inter'] font-[600] text-7xl leading-[82px] text-[#1A1A1A] dark:text-[#FFFFFF]">
+          <span class="bg-gradient-to-r from-[#6A00FF] to-[#B569FF] inline-block text-transparent bg-clip-text">Connecting </span>
+           Dreams, Answering Queries
+        </div>
+      </div>
+
+      <div class="form">
+        <form action="#" method="">
+          <div class="ml-36 flex flex-wrap gap-10"> 
+            <input type="text" id="firstname" placeholder="First Name*" class="required w-2/5 border border-solid border-[#E0E0E0] rounded-lg px-3 py-3 text-[#404040] dark:bg-[#404040] dark:text-[#E0E0E0]">
+            <input type="text" id="lastname" placeholder="Last Name*" class="required w-2/5 border border-solid border-[#E0E0E0] rounded-lg px-3 py-3 text-[#404040] dark:bg-[#404040] dark:text-[#E0E0E0]">
+            <input type="email" id="Email" placeholder="Email*" class="required w-2/5 border border-solid border-[#E0E0E0] rounded-lg px-3 py-3 text-[#404040] dark:bg-[#404040] dark:text-[#E0E0E0]">
+            <input type="tel" id="Mobile"  placeholder="Mobile Number*" class="required w-2/5 border border-solid border-[#E0E0E0] rounded-lg px-3 py-3 text-[#404040] dark:bg-[#404040] dark:text-[#E0E0E0]">
+            <input type="text" id="firstname"  placeholder="First Name*" class="required w-full mr-36 h-32 border border-solid border-[#E0E0E0] rounded-lg px-3 py-3 text-[#404040] dark:bg-[#404040] dark:text-[#E0E0E0]">
+
+            <button class="w-32 mt-8 bg-[#6A00FF] border border-[#4A55A2] flex flex-row items-center rounded-full px-5 py-3 gap-2">
+              <span class="font-['Inter'] text-base font-normal text-[#FFFFFF]">Submit</span>
+              <span>
+                <img src="assets/vector/leftarrow.svg" class="size-6">          
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>  
+    </div>
+
+    <div class="foobar px-30 py-20 bg-[#E0E0E080] dark:bg-[#1A1A1A] flex gap-60">
+      <div class="pt-20 ml-28">
+        <a href="#" class="flex items-center gap-3 "> 
+          <img src="assets/images/workroot_1.png" alt="logo" class="w-16 h-16">
+          <Span class="font-['Inter'] font-semibold text-4xl leading-10 text-[#292929] dark:text-[#E0E0E0]">Workroot</Span>
+        </a>
+      </div>
+
+      <div class="flex flex-row gap-20">
+        <div class="flex flex-col">
+          <h2 class="mb-7 font-['Inter'] font-semibold text-lg leading-6 text-[#1A1A1A] dark:text-[#FFFFFF]">
+            Features
+          </h2>
+          <ul class=" font-['Inter'] font-normal text-base leading-5 text-[#404040] dark:text-[#E0E0E0]">
+            <li class="mb-5"><a href="#">Instant Delivery</a></li>
+            <li class="mb-5"><a href="#">Personalization</a></li>
+            <li class="mb-5"><a href="#">Reliability</a></li>
+            <li class="mb-5"><a href="#">Automation</a></li>
+            <li class="mb-5"><a href="#">Customer Support</a></li>
+          </ul>
+        </div>
+        <div class="ml-20 flex flex-col">
+          <h2 class="mb-7 font-['Inter'] font-semibold text-lg leading-6 text-[#1A1A1A] dark:text-[#FFFFFF]">
+            Resources
+          </h2>
+          <ul class="font-['Inter'] font-normal text-base leading-5 text-[#404040] dark:text-[#E0E0E0]">
+            <li class="mb-5"><a href="#">Pricing</li>
+            <li class="mb-5"><a href="#">FAQs</li>
+            <li class="mb-5"><a href="#">Customer Engagement</li>
+            <li class="mb-5"><a href="#">Employee Communication</li>
+          </ul>
+        </div>
+        
+        <div class="flex flex-col">
+          <div>
+              <h2 class="mb-7 font-['Inter'] font-semibold text-lg leading-6 text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Company
+              </h2>
+              <ul class="font-['Inter'] font-normal text-base leading-5 text-[#404040] dark:text-[#E0E0E0]">
+                <li class="mb-5"><a href="#">About Us</a></li>
+                <li class="mb-5"><a href="#">Contact Us</a></li> 
+              </ul>
+          </div>
+          <div class="mt-7">
+              <h2 class="mb-7 font-['Inter'] font-semibold text-lg leading-6 text-[#1A1A1A] dark:text-[#FFFFFF]">
+                Connect with us
+              </h2>
+              <ul class="flex flex-row justify-between">
+                <li>
+                  <a href="#">
+                    <img src="assets/vector/facebooklogo.svg" class="w-[24px] h-[24px]">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/vector/linkedin.svg" class="w-[24px] h-[24px]">    
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/vector/twitter.svg" class="w-[24px] h-[24px]">                  
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/vector/youtube.svg" class="w-[24px] h-[24px]">                 
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer px-20 py-5 flex items-center justify-between bg-[#404040]">
+      <div class="font-['Inter'] font-medium text-base leading-5 text-[#FFFFFF]">
+        © 2023 WorkRoot IT Solutions LLP™. All Rights Reserved.
+      </div>
+      <div>
+        <ul class="flex flex-row gap-6">
+          <li>
+            <a href="#">
+              <img src="assets/vector/footerfacebook.svg" class="w-[24px] h-[24px]">                
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/vector/footerlinkedin.svg" class="w-[24px] h-[24px]">    
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/vector/footertwitter.svg" class="w-[24px] h-[24px]">                 
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/vector/footeryoutube.svg" class="w-[24px] h-[24px]">                  
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
